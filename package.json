@@ -1,0 +1,27 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "a weather app",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "bin": {
+    "galosh.sh": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-shiqizhang006.git"
+  },
+  "author": "shiqizhang006",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-shiqizhang006/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-shiqizhang006#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.39",
+    "node-fetch": "^3.3.0"
+  }
+}
