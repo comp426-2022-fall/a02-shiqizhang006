@@ -38,7 +38,7 @@ if(args.e){
     process.exit(0)
 }
 
-if(arhs.t){
+if(args.t){
     timezone = args.t;
 } else {
     timezone = moment.tz.guess()
