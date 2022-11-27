@@ -7,7 +7,7 @@
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
   "bin": {
-    "galosh.sh": "./cli.js"
+    "galosh.js": "./cli.js"
   },
   "type": "module",
   "repository": {
