@@ -9,6 +9,7 @@
   "bin": {
     "galosh.sh": "./cli.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a02-shiqizhang006.git"
